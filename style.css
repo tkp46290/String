@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: beige;
+}
+h1,
+p {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+input {
+  font-size: 19px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+p {
+  font-size: 2rem;
+  font-family: 'Courier New', Courier;
+  font-weight: 600;
+}
+button {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  margin-left: 3rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all 0.5ms;
+}
+
+#palindrome {
+  background-color: blanchedalmond;
+}
+#palindrome:hover {
+  background-color: aqua;
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 0px rgb(189, 196, 196);
+}
+
+#reverse {
+  background-color: #ffd95a;
+}
+#reverse:hover {
+  background-color: #fff7d4;
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 0px rgb(189, 196, 196);
+}
+#occurences {
+  background-color: #ffabab;
+}
+#occurences:hover {
+  transform: translateY(-3px);
+  background-color: #f15a59;
+
+  box-shadow: 0px 8px 0px rgb(189, 196, 196);
+}
+
+#vowels {
+  background-color: #19a7ce;
+}
+#vowels:hover {
+  background-color: #afd3e2;
+
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 0px rgb(189, 196, 196);
+}
+#consonants {
+  background-color: #e3f2c1;
+}
+#consonants:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 0px rgb(189, 196, 196);
+  background-color: #aac8a7;
+}
+#sort {
+  background-color: #9384d1;
+}
+#sort:hover {
+  transform: translateY(-3px);
+  background-color: #ecc9ee;
+
+  box-shadow: 0px 8px 0px rgb(189, 196, 196);
+}
+
+.container {
+  width: auto;
+  height: 8.3rem;
+}
+.para {
+  /* background-color: black; */
+  width: auto;
+  height: 8rem;
+  margin: 12px;
+  font-family: 300;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
